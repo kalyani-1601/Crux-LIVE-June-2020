@@ -4,6 +4,7 @@ public class Maze {
 
     public static void main(String[] args) {
 
+        // All primitives discussed
         System.out.println("你好");
     }
 }
