@@ -8,7 +8,7 @@ public class Fibonacci {
 
         int f = 0;
 
-        int s = 1;
+        int s = 1 ;
 
         while(n > 0){
 
