@@ -48,6 +48,19 @@ public class ArratQues {
         return max;
     }
 
+    public static int maxIndex(int start,int end, int ar[]){
+
+        int max = start;
+
+        for (int i = start; i <= end ; i++) {
+
+            if(ar[i]>ar[max]){
+                max=i;
+            }
+        }
+        return max;
+    }
+
     public static void swap(int start, int end ,int[] ar){
 
         int temp= ar[start];
