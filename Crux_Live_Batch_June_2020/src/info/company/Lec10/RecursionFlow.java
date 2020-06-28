@@ -4,6 +4,7 @@ public class RecursionFlow {
 
     public static void main(String[] args) {
         p4();
+
     }
 
     public static void p4(){
@@ -20,6 +21,7 @@ public class RecursionFlow {
         System.out.println("2");
         p1();
     }
+
 
     public static void p1() {
         System.out.println("1");
