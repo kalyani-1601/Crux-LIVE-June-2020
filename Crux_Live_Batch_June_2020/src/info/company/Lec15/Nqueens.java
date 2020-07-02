@@ -1,4 +1,4 @@
-package info.company;
+package info.company.Lec15;
 
 public class Nqueens {
 
@@ -22,7 +22,6 @@ public class Nqueens {
                 board[row][col]=true;
                 nqueen(board, row+1);
                 board[row][col]= false;
-
             }
         }
     }

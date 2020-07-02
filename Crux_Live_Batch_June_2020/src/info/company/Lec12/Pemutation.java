@@ -5,7 +5,7 @@ public class Pemutation {
     public static void main(String[] args) {
 
 
-        permutation("", "abc");
+        permutation("", "aaa");
     }
 
     public static void permutation(String processed, String unprocessed){
