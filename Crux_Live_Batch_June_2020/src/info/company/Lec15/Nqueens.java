@@ -46,7 +46,7 @@ public class Nqueens {
 
         int right = Math.min(row,board.length-col-1);
 
-        for (int i = 0; i <=right  ; i++) {
+        for (int i = 1; i <=right  ; i++) {
 
             if(board[row-i][col+i]){
                 return false;
