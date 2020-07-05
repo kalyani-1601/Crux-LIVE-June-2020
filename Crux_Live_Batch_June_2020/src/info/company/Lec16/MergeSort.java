@@ -6,7 +6,7 @@ public class MergeSort {
 
     public static void main(String[] args) {
 
-        int[] ar = {4,3,2,1};
+        int[] ar = {4,3,5,2,1};
         System.out.println(Arrays.toString(divide(ar)));
     }
 
@@ -35,7 +35,7 @@ public class MergeSort {
 
        while(i<first.length && j<second.length){
 
-           if(first[i]<second[i]){
+           if(first[i]<second[j]){
                mix[k]=first[i];
                k++;
                i++;
