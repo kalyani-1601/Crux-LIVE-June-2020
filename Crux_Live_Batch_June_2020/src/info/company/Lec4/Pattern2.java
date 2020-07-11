@@ -1,12 +1,20 @@
 package info.company.Lec4;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class Pattern2 {
 
+
     public static void main(String[] args) {
 
-        Scanner s = new Scanner(System.in);
+        File f = new File("");
+        Scanner s = null;
+        try {
+            s = new Scanner(f);
+        } catch (FileNotFoundException e) {
+        }
         int n =s.nextInt();
         int k=1;
         int row=1;
