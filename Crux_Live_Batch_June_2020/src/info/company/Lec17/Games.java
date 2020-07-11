@@ -10,12 +10,31 @@ public class Games {
 
     public Games(){
 
-        this.exp= 0;
-        this.lvl=0;
-        this.name="game";
+//        this.exp= 0;
+//        this.lvl=0;
+//        this.name="game";
 
+        this(0);
     }
 
+    public Games(int exp){
+        this(exp,0);
+    }
+
+    public Games(Games game){
+
+        this.exp= game.exp;
+        this.lvl= game.lvl;
+        this.name=game.name;
+    }
+
+    public Games(int exp, int lvl){
+
+        this(exp,lvl,"shubham");
+
+//        this.exp= exp;
+//        this.lvl=lvl;
+    }
     public Games(int exp, int lvl, String name) {
 
         this.exp=exp;
