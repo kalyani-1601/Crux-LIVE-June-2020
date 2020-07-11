@@ -1,8 +1,12 @@
 package info.company.Lec19;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class QueueClient {
 
     public static void main(String[] args) {
+
 
         CircularQueue queue = new CircularQueue();
 
@@ -18,10 +22,10 @@ public class QueueClient {
         queue.insert(17);
 
         for (int i = 0; i <10 ; i++) {
+
             queue.delete();
             queue.display();
+
         }
-
-
     }
 }

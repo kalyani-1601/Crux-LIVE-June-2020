@@ -62,6 +62,7 @@ public class CircularQueue {
         for (int i = 0; i <size ; i++) {
 
             System.out.print(ar[(front+i)%ar.length]+ " ");
+
         }
         System.out.println();
     }

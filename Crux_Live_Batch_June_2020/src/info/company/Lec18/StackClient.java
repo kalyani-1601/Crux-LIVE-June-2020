@@ -1,10 +1,11 @@
 package info.company.Lec18;
 
+import java.util.Stack;
+
 public class StackClient {
 
     public static void main(String[] args) throws Exception{
 
-//        Stack<Integer> stack = new Stack<>();
 
         Stack stack = new Stack();
         stack.push(2);
